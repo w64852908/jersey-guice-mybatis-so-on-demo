@@ -1,3 +1,0 @@
-2016-09-05  15:54:47.891 [qtp1977522556-15 - /user/getUser?name=76er] WARN  com.lanxiang.web.UserController - Print warn
-2016-09-05  15:54:47.891 [qtp1977522556-15 - /user/getUser?name=76er] ERROR com.lanxiang.web.UserController - Print error
-2016-09-05  15:54:48.148 [qtp1977522556-15 - /user/getUser?name=76er] ERROR com.lanxiang.web.UserController - null
