@@ -1,0 +1,235 @@
+2016-09-05  15:54:36.839 [main] INFO  run.Service - openPlatformNotifyService initializing
+2016-09-05  15:54:36.860 [main] DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+2016-09-05  15:54:36.861 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1326ms
+2016-09-05  15:54:36.870 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@31df58ee added {qtp1977522556{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+2016-09-05  15:54:36.889 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - HttpConnectionFactory@1da2f8ca{HTTP/1.1} added {HttpConfiguration@367ba4f9{32768,8192/8192,https://:0,[]},POJO}
+2016-09-05  15:54:36.893 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@7b03075f{null}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@31df58ee,UNMANAGED}
+2016-09-05  15:54:36.896 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@7b03075f{null}{0.0.0.0:0} added {qtp1977522556{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+2016-09-05  15:54:36.898 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@7b03075f{null}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@3aa6088,AUTO}
+2016-09-05  15:54:36.898 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@7b03075f{null}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@3d92d11,POJO}
+2016-09-05  15:54:36.899 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@7b03075f{null}{0.0.0.0:0} added {HttpConnectionFactory@1da2f8ca{HTTP/1.1},AUTO}
+2016-09-05  15:54:36.906 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@7b03075f{HTTP/1.1}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@13447e86,MANAGED}
+2016-09-05  15:54:36.907 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@31df58ee added {ServerConnector@7b03075f{HTTP/1.1}{0.0.0.0:8899},AUTO}
+2016-09-05  15:54:36.967 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.server.session.SessionHandler@5545757a added {org.eclipse.jetty.server.session.HashSessionManager@4323c852,AUTO}
+2016-09-05  15:54:36.967 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - o.e.j.s.ServletContextHandler@6234a1ed{/,null,null} added {org.eclipse.jetty.server.session.SessionHandler@5545757a,AUTO}
+2016-09-05  15:54:36.978 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.server.session.SessionHandler@5545757a added {org.eclipse.jetty.servlet.ServletHandler@12029d31,AUTO}
+2016-09-05  15:54:36.978 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@31df58ee added {o.e.j.s.ServletContextHandler@6234a1ed{/,null,null},AUTO}
+2016-09-05  15:54:37.007 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@12029d31 added {com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false,AUTO}
+2016-09-05  15:54:37.011 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@12029d31 added {[/*]=>com.sun.jersey.spi.container.servlet.ServletContainer-39fae86,POJO}
+2016-09-05  15:54:37.022 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - Chose path=/* mapped to servlet=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86 from default=false
+2016-09-05  15:54:37.027 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={}
+2016-09-05  15:54:37.028 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=null
+2016-09-05  15:54:37.028 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap=null
+2016-09-05  15:54:37.029 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false}
+2016-09-05  15:54:37.029 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={com.sun.jersey.spi.container.servlet.ServletContainer-39fae86=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false}
+2016-09-05  15:54:37.030 [main] INFO  run.Service - Server start ! 
+2016-09-05  15:54:37.030 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@31df58ee
+2016-09-05  15:54:37.043 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.0.RC0
+2016-09-05  15:54:37.080 [main] DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@31df58ee
+2016-09-05  15:54:37.081 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting qtp1977522556{STOPPED,8<=0<=200,i=0,q=0}
+2016-09-05  15:54:37.085 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1555ms qtp1977522556{STARTED,8<=8<=200,i=8,q=0}
+2016-09-05  15:54:37.085 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting o.e.j.s.ServletContextHandler@6234a1ed{/,null,null}
+2016-09-05  15:54:37.127 [main] DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler@6234a1ed{/,null,STARTING}
+2016-09-05  15:54:37.128 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.SessionHandler@5545757a
+2016-09-05  15:54:37.128 [main] DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.server.session.SessionHandler@5545757a
+2016-09-05  15:54:37.128 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.HashSessionManager@4323c852
+2016-09-05  15:54:37.129 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.server.session.HashSessionManager@4323c852 added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@70c44470,MANAGED}
+2016-09-05  15:54:37.134 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.HashSessionIdManager@3c716932
+2016-09-05  15:54:37.149 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1619ms org.eclipse.jetty.server.session.HashSessionIdManager@3c716932
+2016-09-05  15:54:37.150 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@31df58ee added {org.eclipse.jetty.server.session.HashSessionIdManager@3c716932,MANAGED}
+2016-09-05  15:54:37.152 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.server.session.HashSessionManager@4323c852 added {org.eclipse.jetty.server.session.HashSessionIdManager@3c716932,UNMANAGED}
+2016-09-05  15:54:37.153 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@70c44470
+2016-09-05  15:54:37.159 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1629ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@70c44470
+2016-09-05  15:54:37.163 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1633ms org.eclipse.jetty.server.session.HashSessionManager@4323c852
+2016-09-05  15:54:37.164 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler@12029d31
+2016-09-05  15:54:37.164 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - Chose path=/* mapped to servlet=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86 from default=false
+2016-09-05  15:54:37.164 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={}
+2016-09-05  15:54:37.164 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=null
+2016-09-05  15:54:37.164 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap=null
+2016-09-05  15:54:37.165 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false}
+2016-09-05  15:54:37.166 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={com.sun.jersey.spi.container.servlet.ServletContainer-39fae86=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false}
+2016-09-05  15:54:37.167 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - Adding Default404Servlet to org.eclipse.jetty.servlet.ServletHandler@12029d31
+2016-09-05  15:54:37.172 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@12029d31 added {org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f@bb8071cd==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false,AUTO}
+2016-09-05  15:54:37.173 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@12029d31 added {[/]=>org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f,POJO}
+2016-09-05  15:54:37.173 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - Chose path=/ mapped to servlet=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f from default=false
+2016-09-05  15:54:37.173 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - Chose path=/* mapped to servlet=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86 from default=false
+2016-09-05  15:54:37.173 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={}
+2016-09-05  15:54:37.173 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=null
+2016-09-05  15:54:37.173 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap=null
+2016-09-05  15:54:37.174 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false, /=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f@bb8071cd==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false}
+2016-09-05  15:54:37.175 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f@bb8071cd==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false, com.sun.jersey.spi.container.servlet.ServletContainer-39fae86=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false}
+2016-09-05  15:54:37.175 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - Chose path=/ mapped to servlet=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f from default=false
+2016-09-05  15:54:37.175 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - Chose path=/* mapped to servlet=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86 from default=false
+2016-09-05  15:54:37.175 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={}
+2016-09-05  15:54:37.176 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=null
+2016-09-05  15:54:37.176 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap=null
+2016-09-05  15:54:37.176 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false, /=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f@bb8071cd==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false}
+2016-09-05  15:54:37.177 [main] DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f@bb8071cd==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false, com.sun.jersey.spi.container.servlet.ServletContainer-39fae86=com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false}
+2016-09-05  15:54:37.177 [main] DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.servlet.ServletHandler@12029d31
+2016-09-05  15:54:37.177 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1647ms org.eclipse.jetty.servlet.ServletHandler@12029d31
+2016-09-05  15:54:37.178 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1647ms org.eclipse.jetty.server.session.SessionHandler@5545757a
+2016-09-05  15:54:37.179 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false
+2016-09-05  15:54:37.192 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1662ms com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false
+2016-09-05  15:54:37.192 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f@bb8071cd==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+2016-09-05  15:54:37.193 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1663ms org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-77e6c94f@bb8071cd==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+2016-09-05  15:54:37.194 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6234a1ed{/,null,AVAILABLE}
+2016-09-05  15:54:37.194 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1664ms o.e.j.s.ServletContextHandler@6234a1ed{/,null,AVAILABLE}
+2016-09-05  15:54:37.195 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting ServerConnector@7b03075f{HTTP/1.1}{0.0.0.0:8899}
+2016-09-05  15:54:37.215 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@7b03075f{HTTP/1.1}{0.0.0.0:8899} added {sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:8899],POJO}
+2016-09-05  15:54:37.215 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@3aa6088
+2016-09-05  15:54:37.215 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1685ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@3aa6088
+2016-09-05  15:54:37.216 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting HttpConnectionFactory@1da2f8ca{HTTP/1.1}
+2016-09-05  15:54:37.216 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1686ms HttpConnectionFactory@1da2f8ca{HTTP/1.1}
+2016-09-05  15:54:37.216 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@13447e86
+2016-09-05  15:54:37.221 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@90f2b4a keys=-1 selected=-1
+2016-09-05  15:54:37.224 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1694ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@90f2b4a keys=0 selected=0
+2016-09-05  15:54:37.225 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@375c56d3 keys=-1 selected=-1
+2016-09-05  15:54:37.226 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1696ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@375c56d3 keys=0 selected=0
+2016-09-05  15:54:37.226 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[qtp1977522556-14-selector-ServerConnectorManager@13447e86/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@90f2b4a keys=0 selected=0
+2016-09-05  15:54:37.226 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@52450ebf keys=-1 selected=-1
+2016-09-05  15:54:37.226 [qtp1977522556-10-selector-ServerConnectorManager@13447e86/1] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[qtp1977522556-10-selector-ServerConnectorManager@13447e86/1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@375c56d3 keys=0 selected=0
+2016-09-05  15:54:37.227 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1696ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@52450ebf keys=0 selected=0
+2016-09-05  15:54:37.227 [qtp1977522556-10-selector-ServerConnectorManager@13447e86/1] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+2016-09-05  15:54:37.227 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+2016-09-05  15:54:37.227 [qtp1977522556-12-selector-ServerConnectorManager@13447e86/2] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[qtp1977522556-12-selector-ServerConnectorManager@13447e86/2,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@52450ebf keys=0 selected=0
+2016-09-05  15:54:37.227 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@b24acca keys=-1 selected=-1
+2016-09-05  15:54:37.227 [qtp1977522556-12-selector-ServerConnectorManager@13447e86/2] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+2016-09-05  15:54:37.228 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1697ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@b24acca keys=0 selected=0
+2016-09-05  15:54:37.231 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1701ms org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@13447e86
+2016-09-05  15:54:37.231 [qtp1977522556-13-selector-ServerConnectorManager@13447e86/3] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[qtp1977522556-13-selector-ServerConnectorManager@13447e86/3,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@b24acca keys=0 selected=0
+2016-09-05  15:54:37.232 [qtp1977522556-13-selector-ServerConnectorManager@13447e86/3] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+2016-09-05  15:54:37.240 [main] INFO  org.eclipse.jetty.server.ServerConnector - Started ServerConnector@7b03075f{HTTP/1.1}{0.0.0.0:8899}
+2016-09-05  15:54:37.241 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1710ms ServerConnector@7b03075f{HTTP/1.1}{0.0.0.0:8899}
+2016-09-05  15:54:37.241 [main] INFO  org.eclipse.jetty.server.Server - Started @1711ms
+2016-09-05  15:54:37.241 [main] DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED @1711ms org.eclipse.jetty.server.Server@31df58ee
+2016-09-05  15:54:45.804 [qtp1977522556-11-acceptor-0-ServerConnector@7b03075f{HTTP/1.1}{0.0.0.0:8899}] DEBUG org.eclipse.jetty.io.SelectorManager - Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Accept@47d241c9
+2016-09-05  15:54:45.806 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop woken up from select, 0/0 selected
+2016-09-05  15:54:45.806 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Accept@47d241c9
+2016-09-05  15:54:45.827 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.AbstractEndPoint - onOpen SelectChannelEndPoint@33b71290{/0:0:0:0:0:0:0:1:53387<->8899,Open,in,out,-,-,30000,null}{io=0,kio=0,kro=0}
+2016-09-05  15:54:45.828 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.IdleTimeout - SelectChannelEndPoint@33b71290{/0:0:0:0:0:0:0:1:53387<->8899,Open,in,out,-,-,30000,null}{io=0,kio=0,kro=0} idle timeout check, elapsed: 6 ms, remaining: 29994 ms
+2016-09-05  15:54:45.872 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.server.HttpConnection - New HTTP Connection HttpConnection@fba4a2f{IDLE}
+2016-09-05  15:54:45.873 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.AbstractConnection - onOpen HttpConnection@fba4a2f{IDLE}
+2016-09-05  15:54:45.873 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.AbstractConnection - fillInterested HttpConnection@fba4a2f{IDLE}
+2016-09-05  15:54:45.873 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.AbstractConnection - IDLE-->FILL_INTERESTED HttpConnection@fba4a2f{FILL_INTERESTED}
+2016-09-05  15:54:45.873 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectChannelEndPoint - Local interests updated 0 -> 1 for SelectChannelEndPoint@33b71290{/0:0:0:0:0:0:0:1:53387<->8899,Open,in,out,R,-,30000,HttpConnection}{io=1,kio=0,kro=0}
+2016-09-05  15:54:45.874 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@707c083e
+2016-09-05  15:54:45.874 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectChannelEndPoint - Key interests updated 0 -> 1
+2016-09-05  15:54:45.874 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Created SelectChannelEndPoint@33b71290{/0:0:0:0:0:0:0:1:53387<->8899,Open,in,out,R,-,30000,HttpConnection}{io=1,kio=1,kro=0}
+2016-09-05  15:54:45.874 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+2016-09-05  15:54:45.874 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop woken up from select, 1/1 selected
+2016-09-05  15:54:45.874 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectChannelEndPoint - Key interests updated 1 -> 0
+2016-09-05  15:54:45.875 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectChannelEndPoint - Local interests updated 1 -> 0 for SelectChannelEndPoint@33b71290{/0:0:0:0:0:0:0:1:53387<->8899,Open,in,out,R,-,30000,HttpConnection}{io=0,kio=0,kro=1}
+2016-09-05  15:54:45.875 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@707c083e
+2016-09-05  15:54:45.875 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.AbstractConnection - FILL_INTERESTED-->FILLING HttpConnection@fba4a2f{FILLING}
+2016-09-05  15:54:45.875 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+2016-09-05  15:54:45.876 [qtp1977522556-15] DEBUG org.eclipse.jetty.server.HttpConnection - HttpConnection@fba4a2f{FILLING} onFillable HttpChannelState@5f015823{s=IDLE i=true a=null}
+2016-09-05  15:54:45.878 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.ChannelEndPoint - filled 416 SelectChannelEndPoint@33b71290{/0:0:0:0:0:0:0:1:53387<->8899,Open,in,out,-,-,30000,HttpConnection}{io=0,kio=0,kro=1}
+2016-09-05  15:54:45.878 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - parseNext s=START HeapByteBuffer@b5eb44d[p=0,l=416,c=16384,r=416]={<<<GET /user/getUser...eo_cookie=a||||>>>�����������������...���������������}
+2016-09-05  15:54:45.879 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - START --> SPACE1
+2016-09-05  15:54:45.880 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - SPACE1 --> URI
+2016-09-05  15:54:45.881 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - URI --> SPACE2
+2016-09-05  15:54:45.881 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - SPACE2 --> REQUEST_VERSION
+2016-09-05  15:54:45.881 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - REQUEST_VERSION --> HEADER
+2016-09-05  15:54:45.881 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+2016-09-05  15:54:45.881 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+2016-09-05  15:54:45.881 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+2016-09-05  15:54:45.883 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+2016-09-05  15:54:45.883 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+2016-09-05  15:54:45.883 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+2016-09-05  15:54:45.883 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+2016-09-05  15:54:45.883 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+2016-09-05  15:54:45.883 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+2016-09-05  15:54:45.883 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+2016-09-05  15:54:45.883 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_NAME
+2016-09-05  15:54:45.883 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_NAME --> HEADER_VALUE
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+2016-09-05  15:54:45.884 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+2016-09-05  15:54:45.886 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> END
+2016-09-05  15:54:45.887 [qtp1977522556-15] DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@43d0e87c{r=1,a=IDLE,uri=-} messageComplete
+2016-09-05  15:54:45.888 [qtp1977522556-15] DEBUG org.eclipse.jetty.server.HttpInput - HttpInputOverHTTP@4cea924a EOF
+2016-09-05  15:54:45.888 [qtp1977522556-15] DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@43d0e87c{r=1,a=IDLE,uri=-} handle enter
+2016-09-05  15:54:45.888 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.HttpChannelState - HttpChannelState@5f015823{s=IDLE i=true a=null} handling IDLE
+2016-09-05  15:54:45.889 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@43d0e87c{r=1,a=DISPATCHED,uri=/user/getUser} action REQUEST_DISPATCH
+2016-09-05  15:54:45.890 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.Server - REQUEST /user/getUser on HttpChannelOverHttp@43d0e87c{r=1,a=DISPATCHED,uri=/user/getUser}
+2016-09-05  15:54:45.890 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.handler.ContextHandler - scope null||/user/getUser @ o.e.j.s.ServletContextHandler@6234a1ed{/,null,AVAILABLE}
+2016-09-05  15:54:45.891 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.handler.ContextHandler - context=||/user/getUser @ o.e.j.s.ServletContextHandler@6234a1ed{/,null,AVAILABLE}
+2016-09-05  15:54:45.895 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.session - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@4323c852
+2016-09-05  15:54:45.895 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.session - session=null
+2016-09-05  15:54:45.896 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.servlet.ServletHandler - servlet ||/user/getUser -> com.sun.jersey.spi.container.servlet.ServletContainer-39fae86@687483b8==com.sun.jersey.spi.container.servlet.ServletContainer,-1,false
+2016-09-05  15:54:45.896 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.servlet.ServletHandler - chain=null
+2016-09-05  15:54:45.915 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.servlet.ServletHolder - Filter.init com.sun.jersey.spi.container.servlet.ServletContainer@a39e3dd
+2016-09-05  15:54:46.059 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - InitialContextFactory.getInitialContext()
+2016-09-05  15:54:46.068 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - supportDeepBinding=false
+2016-09-05  15:54:46.069 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@21a777b0
+2016-09-05  15:54:46.108 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - InitialContextFactory.getInitialContext()
+2016-09-05  15:54:46.108 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@3c1e1fd3
+2016-09-05  15:54:46.110 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2016-09-05  15:54:46.112 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - supportDeepBinding=false
+2016-09-05  15:54:46.115 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - Adding binding with key=comp obj=Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+ for context=null as comp: javax.naming.Reference:Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+
+2016-09-05  15:54:46.116 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - Looking up name="org.glassfish.ejb.container.interceptor_binding_spi"
+2016-09-05  15:54:46.117 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - InitialContextFactory.getInitialContext()
+2016-09-05  15:54:46.118 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@318957f4
+2016-09-05  15:54:46.118 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2016-09-05  15:54:46.118 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - Looking up name="comp/BeanManager"
+2016-09-05  15:54:46.119 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - Trying thread context classloader
+2016-09-05  15:54:46.123 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - supportDeepBinding=false
+2016-09-05  15:54:46.124 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - Made context comp for classloader: sun.misc.Launcher$AppClassLoader@36c51089
+2016-09-05  15:54:46.126 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - Looking up name="BeanManager"
+2016-09-05  15:54:46.128 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - InitialContextFactory.getInitialContext()
+2016-09-05  15:54:46.128 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@55a54ea0
+2016-09-05  15:54:46.128 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG jndi - Looking up name="com.sun.enterprise.container.common.spi.util.InjectionManager"
+2016-09-05  15:54:47.891 [qtp1977522556-15 - /user/getUser?name=76er] INFO  com.lanxiang.web.UserController - Print info
+2016-09-05  15:54:47.891 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG com.lanxiang.web.UserController - Print debug
+2016-09-05  15:54:47.891 [qtp1977522556-15 - /user/getUser?name=76er] WARN  com.lanxiang.web.UserController - Print warn
+2016-09-05  15:54:47.891 [qtp1977522556-15 - /user/getUser?name=76er] ERROR com.lanxiang.web.UserController - Print error
+2016-09-05  15:54:47.893 [qtp1977522556-15 - /user/getUser?name=76er] INFO  com.lanxiang.web.UserController - =============================Received param : 76er =================================
+2016-09-05  15:54:48.148 [qtp1977522556-15 - /user/getUser?name=76er] ERROR com.lanxiang.web.UserController - null
+2016-09-05  15:54:48.225 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$CommitCallback@571b019b[ITERATING] generate: NEED_HEADER (null,[p=0,l=45,c=32768,r=45],false)@START
+2016-09-05  15:54:48.226 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$CommitCallback@571b019b[ITERATING] generate: FLUSH ([p=0,l=146,c=8192,r=146],[p=0,l=45,c=32768,r=45],false)@COMMITTED
+2016-09-05  15:54:48.226 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.io.WriteFlusher - write: WriteFlusher@14a98314{IDLE} [HeapByteBuffer@27cd611e[p=0,l=146,c=8192,r=146]={<<<HTTP/1.1 200 OK||....0.RC0)||||2D||>>>�����������������...���������������},HeapByteBuffer@1ca30cfc[p=0,l=45,c=32768,r=45]={<<<{"message":"Did n...","status":"1"}>>>�����������������...���������������}]
+2016-09-05  15:54:48.226 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.io.WriteFlusher - update WriteFlusher@14a98314{WRITING}:IDLE-->WRITING
+2016-09-05  15:54:48.229 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.io.ChannelEndPoint - flushed 191 SelectChannelEndPoint@33b71290{/0:0:0:0:0:0:0:1:53387<->8899,Open,in,out,-,W,30000,HttpConnection}{io=0,kio=0,kro=1}
+2016-09-05  15:54:48.229 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.io.WriteFlusher - flushed true
+2016-09-05  15:54:48.230 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.io.WriteFlusher - update WriteFlusher@14a98314{IDLE}:WRITING-->IDLE
+2016-09-05  15:54:48.230 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$CommitCallback@571b019b[ITERATING] generate: DONE ([p=146,l=146,c=8192,r=0],[p=45,l=45,c=32768,r=0],false)@COMMITTED
+2016-09-05  15:54:48.231 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.Server - RESPONSE /user/getUser  200 handled=true
+2016-09-05  15:54:48.231 [qtp1977522556-15 - /user/getUser?name=76er] DEBUG org.eclipse.jetty.server.HttpChannelState - HttpChannelState@5f015823{s=DISPATCHED i=true a=null} unhandle DISPATCHED
+2016-09-05  15:54:48.232 [qtp1977522556-15] DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$ContentCallback@476cab2e[ITERATING] generate: CONTINUE ([p=0,l=0,c=0,r=0],true)@COMPLETING
+2016-09-05  15:54:48.232 [qtp1977522556-15] DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$ContentCallback@476cab2e[ITERATING] generate: NEED_CHUNK ([p=0,l=0,c=0,r=0],true)@COMPLETING
+2016-09-05  15:54:48.232 [qtp1977522556-15] DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$ContentCallback@476cab2e[ITERATING] generate: FLUSH ([p=0,l=0,c=0,r=0],true)@COMPLETING
+2016-09-05  15:54:48.232 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.WriteFlusher - write: WriteFlusher@14a98314{IDLE} [HeapByteBuffer@2f5a7da4[p=0,l=7,c=1024,r=7]={<<<||0||||>>>�����������������...���������������}]
+2016-09-05  15:54:48.232 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.WriteFlusher - update WriteFlusher@14a98314{WRITING}:IDLE-->WRITING
+2016-09-05  15:54:48.233 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.ChannelEndPoint - flushed 7 SelectChannelEndPoint@33b71290{/0:0:0:0:0:0:0:1:53387<->8899,Open,in,out,-,W,30000,HttpConnection}{io=0,kio=0,kro=1}
+2016-09-05  15:54:48.234 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.WriteFlusher - flushed true
+2016-09-05  15:54:48.234 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.WriteFlusher - update WriteFlusher@14a98314{IDLE}:WRITING-->IDLE
+2016-09-05  15:54:48.234 [qtp1977522556-15] DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$ContentCallback@476cab2e[ITERATING] generate: DONE ([p=0,l=0,c=0,r=0],true)@END
+2016-09-05  15:54:48.238 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - reset HttpParser{s=END,0 of 0}
+2016-09-05  15:54:48.238 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - END --> START
+2016-09-05  15:54:48.239 [qtp1977522556-15] DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@43d0e87c{r=1,a=IDLE,uri=-} handle exit, result COMPLETE
+2016-09-05  15:54:48.240 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.ChannelEndPoint - filled 0 SelectChannelEndPoint@33b71290{/0:0:0:0:0:0:0:1:53387<->8899,Open,in,out,-,-,30000,HttpConnection}{io=0,kio=0,kro=1}
+2016-09-05  15:54:48.240 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.ChannelEndPoint - filled 0 SelectChannelEndPoint@33b71290{/0:0:0:0:0:0:0:1:53387<->8899,Open,in,out,-,-,30000,HttpConnection}{io=0,kio=0,kro=1}
+2016-09-05  15:54:48.241 [qtp1977522556-15] DEBUG org.eclipse.jetty.http.HttpParser - parseNext s=START HeapByteBuffer@b5eb44d[p=0,l=0,c=16384,r=0]={<<<>>>GET /user/getUser...���������������}
+2016-09-05  15:54:48.241 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.AbstractConnection - fillInterested HttpConnection@fba4a2f{FILLING}
+2016-09-05  15:54:48.241 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.AbstractConnection - FILLING-->FILLING_FILL_INTERESTED HttpConnection@fba4a2f{FILLING_FILL_INTERESTED}
+2016-09-05  15:54:48.241 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.AbstractConnection - FILLING_FILL_INTERESTED-->FILL_INTERESTED HttpConnection@fba4a2f{FILL_INTERESTED}
+2016-09-05  15:54:48.242 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.SelectChannelEndPoint - Local interests updated 0 -> 1 for SelectChannelEndPoint@33b71290{/0:0:0:0:0:0:0:1:53387<->8899,Open,in,out,R,-,30000,HttpConnection}{io=1,kio=0,kro=1}
+2016-09-05  15:54:48.242 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@707c083e
+2016-09-05  15:54:48.242 [qtp1977522556-15] DEBUG org.eclipse.jetty.io.SelectChannelEndPoint - Key interests updated 0 -> 1
+2016-09-05  15:54:48.242 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop woken up from select, 0/1 selected
+2016-09-05  15:54:48.242 [qtp1977522556-14-selector-ServerConnectorManager@13447e86/0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
