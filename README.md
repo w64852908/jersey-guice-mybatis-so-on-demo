@@ -9,7 +9,7 @@ And request demo:
 
 1.http://localhost:8899/user/addUser
 
-body :{"name":"soldier 76","password":"23333333","sex":"male","age":30,"addressDTO":{"province":"yoyo",
+body :{"name":"soldier76","password":"23333333","sex":"male","age":30,"addressDTO":{"province":"yoyo",
 "city":"jojo","town":"coco","detail":"nono"}}
 
-2.http://localhost:8899/user/getUser?name=soldier
+2.http://localhost:8899/user/getUser?name=soldier76
