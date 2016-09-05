@@ -27,10 +27,6 @@ public class UserController {
     @PostConstruct
     public void init() {
         userService = Guice.createInjector(new ServiceModule()).getInstance(UserService.class);
-        log.info("Print info");
-        log.debug("Print debug");
-        log.warn("Print warn");
-        log.error("Print error");
     }
 
     @GET
@@ -44,7 +40,6 @@ public class UserController {
     @Path("/getUser")
     @Produces({MediaType.APPLICATION_JSON})
     public Response getUser(@QueryParam("name") String name) {
-        log.info("=============================Received param : {} =================================", name);
         if (name == null || name.equals("")) {
             return new Response().setStatus(1).setMessage("Param is null.");
         }
