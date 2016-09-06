@@ -10,7 +10,6 @@ import com.lanxiang.model.mongo.dao.UserInfoDAO;
 import com.lanxiang.service.UserService;
 import com.lanxiang.util.UserMetaUtil;
 import org.apache.ibatis.session.SqlSession;
-import org.mongodb.morphia.Datastore;
 
 import java.util.Date;
 
