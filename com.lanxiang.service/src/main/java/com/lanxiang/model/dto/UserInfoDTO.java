@@ -1,16 +1,12 @@
-package com.lanxiang.model.mongo;
+package com.lanxiang.model.dto;
 
-import org.mongodb.morphia.annotations.Embedded;
-
-import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by lanxiang on 16/9/6.
  */
-public class UserInfo extends MongoPersistenceObject {
-
-    private String userId;
+public class UserInfoDTO {
 
     private String phone;
 
@@ -20,14 +16,12 @@ public class UserInfo extends MongoPersistenceObject {
 
     private Long salary;
 
-    @Embedded
-    private Education education;
+    private Map<String, String> education;
 
     private List<String> friends;
 
-    private int status;
-
-    private Date createOrUpdateAt;
+    public UserInfoDTO() {
+    }
 
     public String getPhone() {
         return phone;
@@ -61,20 +55,12 @@ public class UserInfo extends MongoPersistenceObject {
         this.salary = salary;
     }
 
-    public Education getEducation() {
+    public Map<String, String> getEducation() {
         return education;
     }
 
-    public void setEducation(Education education) {
+    public void setEducation(Map<String, String> education) {
         this.education = education;
-    }
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public void setUserId(String userId) {
-        this.userId = userId;
     }
 
     public List<String> getFriends() {
@@ -85,19 +71,15 @@ public class UserInfo extends MongoPersistenceObject {
         this.friends = friends;
     }
 
-    public int getStatus() {
-        return status;
-    }
-
-    public void setStatus(int status) {
-        this.status = status;
-    }
-
-    public Date getCreateOrUpdateAt() {
-        return createOrUpdateAt;
-    }
-
-    public void setCreateOrUpdateAt(Date createOrUpdateAt) {
-        this.createOrUpdateAt = createOrUpdateAt;
+    @Override
+    public String toString() {
+        return "UserInfoDTO{" +
+                "phone='" + phone + '\'' +
+                ", email='" + email + '\'' +
+                ", wechat='" + wechat + '\'' +
+                ", salary=" + salary +
+                ", education=" + education +
+                ", friends=" + friends +
+                '}';
     }
 }

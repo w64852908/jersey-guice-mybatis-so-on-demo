@@ -15,8 +15,6 @@ public class UserDTO {
 
     private int age;
 
-    private int status;
-
     private AddressDTO addressDTO;
 
     public String getId() {
@@ -59,14 +57,6 @@ public class UserDTO {
         this.age = age;
     }
 
-    public int getStatus() {
-        return status;
-    }
-
-    public void setStatus(int status) {
-        this.status = status;
-    }
-
     public AddressDTO getAddressDTO() {
         return addressDTO;
     }
@@ -79,16 +69,6 @@ public class UserDTO {
 
     }
 
-    public UserDTO(String id, String name, String password, String sex, int age, int status, AddressDTO addressDTO) {
-        this.id = id;
-        this.name = name;
-        this.password = password;
-        this.sex = sex;
-        this.age = age;
-        this.status = status;
-        this.addressDTO = addressDTO;
-    }
-
     @Override
     public String toString() {
         return "UserDTO{" +
@@ -97,7 +77,6 @@ public class UserDTO {
                 ", password='" + password + '\'' +
                 ", sex='" + sex + '\'' +
                 ", age=" + age +
-                ", status=" + status +
                 ", addressDTO=" + addressDTO +
                 '}';
     }

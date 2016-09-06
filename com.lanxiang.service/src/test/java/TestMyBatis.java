@@ -37,7 +37,6 @@ public class TestMyBatis {
         userDTO.setAge(40);
         userDTO.setPassword("2333333333");
         userDTO.setSex("male");
-        userDTO.setStatus(0);
         AddressDTO addressDTO = new AddressDTO();
         addressDTO.setId("aid_" + UuidUtil.getUuid());
         addressDTO.setCity("yoyo");

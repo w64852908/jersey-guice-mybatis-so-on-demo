@@ -65,14 +65,6 @@ public class AddressDTO {
         this.town = town;
     }
 
-    public AddressDTO(String id, String userId, String province, String city, String town, String detail) {
-        this.id = id;
-        this.userId = userId;
-        this.province = province;
-        this.city = city;
-        this.town = town;
-        this.detail = detail;
-    }
 
     public AddressDTO() {
 

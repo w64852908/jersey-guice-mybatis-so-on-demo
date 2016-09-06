@@ -5,6 +5,8 @@ import com.google.inject.Singleton;
 import com.google.inject.name.Names;
 import com.lanxiang.mapper.AddressMapper;
 import com.lanxiang.mapper.UserMapper;
+import com.lanxiang.model.mongo.dao.UserInfoDAO;
+import com.lanxiang.model.mongo.dao.impl.UserInfoDAOImpl;
 import com.lanxiang.service.UserService;
 import com.lanxiang.service.impl.UserServiceImpl;
 import com.mongodb.MongoClient;
@@ -25,6 +27,7 @@ public class ServiceModule extends PrivateMyBatisModule {
     protected void configure() {
         super.configure();
         register(UserService.class, UserServiceImpl.class);
+        register(UserInfoDAO.class, UserInfoDAOImpl.class);
         initDBProperties();
         Names.bindProperties(this.binder(), properties);
         expose(Datastore.class);

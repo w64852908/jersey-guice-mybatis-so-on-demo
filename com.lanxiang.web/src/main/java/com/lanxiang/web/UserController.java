@@ -6,6 +6,7 @@ import com.lanxiang.guice.ServiceModule;
 import com.lanxiang.model.Response;
 import com.lanxiang.model.User;
 import com.lanxiang.model.dto.UserDTO;
+import com.lanxiang.model.dto.UserInfoDTO;
 import com.lanxiang.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,6 +22,7 @@ import javax.ws.rs.core.MediaType;
 @Path("/user")
 public class UserController {
 
+    @Inject
     private UserService userService;
     private static final Logger log = LoggerFactory.getLogger(UserController.class);
 
@@ -103,8 +105,20 @@ public class UserController {
         return new Response().setStatus(0).setMessage("Update user succeed.");
     }
 
-    @Inject
-    public void setUserService(UserService userService) {
-        this.userService = userService;
+    @POST
+    @Path("/fillUserInfo")
+    @Produces({MediaType.APPLICATION_JSON})
+    @Consumes({MediaType.APPLICATION_JSON})
+    public Response fillUserInfo(String userId, UserInfoDTO userInfoDTO) {
+        if (userInfoDTO == null) {
+            return new Response().setStatus(1).setMessage("Param is null.");
+        }
+        try {
+            userService.fillUserInfo(userId, userInfoDTO);
+        } catch (Exception e) {
+            log.error(e.getMessage());
+            return new Response().setStatus(1).setMessage("Fill user info failed.");
+        }
+        return new Response().setStatus(0).setMessage("Fill user info succeed.");
     }
 }

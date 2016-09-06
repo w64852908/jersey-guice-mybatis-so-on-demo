@@ -4,6 +4,9 @@ import com.lanxiang.model.Address;
 import com.lanxiang.model.User;
 import com.lanxiang.model.dto.AddressDTO;
 import com.lanxiang.model.dto.UserDTO;
+import com.lanxiang.model.dto.UserInfoDTO;
+import com.lanxiang.model.mongo.Education;
+import com.lanxiang.model.mongo.UserInfo;
 
 /**
  * Created by lanxiang on 16/9/2.
@@ -34,8 +37,6 @@ public class UserMetaUtil {
         }
 
         user.setAge(userDTO.getAge());
-
-        user.setStatus(userDTO.getStatus());
 
         Address address = getAddressFromAddressDTO(userDTO.getAddressDTO());
 
@@ -77,5 +78,29 @@ public class UserMetaUtil {
             address.setDetail(addressDTO.getDetail());
         }
         return address;
+    }
+
+    public static void setUserInfoFromUserInfoDTO(UserInfo userInfo, UserInfoDTO userInfoDTO) {
+        if (userInfo == null || userInfoDTO == null) {
+            return;
+        }
+        if (userInfoDTO.getPhone() != null) {
+            userInfo.setPhone(userInfoDTO.getPhone());
+        }
+        if (userInfoDTO.getEmail() != null) {
+            userInfo.setEmail(userInfoDTO.getEmail());
+        }
+        if (userInfoDTO.getWechat() != null) {
+            userInfo.setWechat(userInfoDTO.getWechat());
+        }
+        if (userInfoDTO.getSalary() != null) {
+            userInfo.setSalary(userInfoDTO.getSalary());
+        }
+        if (userInfoDTO.getEducation() != null && userInfoDTO.getEducation().size() > 0) {
+            userInfo.setEducation(new Education(userInfoDTO.getEducation()));
+        }
+        if (userInfoDTO.getFriends() != null && userInfoDTO.getFriends().size() > 0) {
+            userInfo.setFriends(userInfoDTO.getFriends());
+        }
     }
 }

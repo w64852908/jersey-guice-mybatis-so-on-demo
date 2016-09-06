@@ -7,8 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mongodb.morphia.Datastore;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by lanxiang on 16/9/6.
@@ -36,6 +35,12 @@ public class TestMorphia {
         eduMap.put("万州中学", "2008-2012");
         eduMap.put("大连理工大学", "2012-2016");
         userInfo.setEducation(new Education(eduMap));
+        userInfo.setUserId("uid_1b9b96b2-e562-40ed-941b-ecb5a3e69638");
+        List<String> friends = new ArrayList<String>();
+        friends.add("Dva");
+        friends.add("Mei");
+        friends.add("Hanzo");
+        userInfo.setFriends(friends);
         datastore.save(userInfo);
     }
 }
