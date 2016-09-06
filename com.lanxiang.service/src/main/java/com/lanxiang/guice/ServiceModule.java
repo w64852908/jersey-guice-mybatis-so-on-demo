@@ -1,25 +1,31 @@
 package com.lanxiang.guice;
 
 import com.google.inject.name.Names;
-import com.lanxiang.model.Address;
-import com.lanxiang.model.User;
+import com.lanxiang.mapper.AddressMapper;
+import com.lanxiang.mapper.UserMapper;
 import com.lanxiang.service.UserService;
 import com.lanxiang.service.impl.UserServiceImpl;
-import org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory;
-import org.mybatis.guice.MyBatisModule;
-import org.mybatis.guice.datasource.builtin.PooledDataSourceProvider;
 
 import java.util.Properties;
 import java.util.ResourceBundle;
 
 /**
- * Created by lanxiang on 16/9/1.
+ * Created by lanxiang on 16/9/6.
  */
-public class ServiceModule extends MyBatisModule{
+public class ServiceModule extends PrivateMyBatisModule {
 
     private Properties properties;
 
-    private void initDbProperties(){
+    @Override
+    protected void configure() {
+        super.configure();
+        register(UserService.class, UserServiceImpl.class);
+        initDbProperties();
+        Names.bindProperties(this.binder(), properties);
+    }
+
+
+    private void initDbProperties() {
         properties = new Properties();
         ResourceBundle rb = ResourceBundle.getBundle("db");
         properties.setProperty("mybatis.environment.id", "dev");
@@ -30,15 +36,10 @@ public class ServiceModule extends MyBatisModule{
         properties.setProperty("JDBC.autoCommit", "false");
     }
 
-
-    protected void initialize() {
-        initDbProperties();
-        bindDataSourceProviderType(PooledDataSourceProvider.class);
-        bindTransactionFactoryType(JdbcTransactionFactory.class);
-        addMapperClasses("com.lanxiang.mapper");
-        addSimpleAlias(User.class);
-        addSimpleAlias(Address.class);
-        bind(UserService.class).to(UserServiceImpl.class);
-        Names.bindProperties(this.binder(), properties);
+    protected Class[] mapperClasses() {
+        return new Class[]{
+                AddressMapper.class,
+                UserMapper.class
+        };
     }
 }
