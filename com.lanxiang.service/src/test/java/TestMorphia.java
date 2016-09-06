@@ -25,15 +25,15 @@ public class TestMorphia {
     @Test
     public void testSave() {
         UserInfo userInfo = new UserInfo();
-        userInfo.setEmail("273109445@qq.com");
+        userInfo.setEmail("lanxiang@mail.com");
         userInfo.setWechat("wx_lanxiang");
         userInfo.setSalary(23333L);
-        userInfo.setPhone("18615351030");
+        userInfo.setPhone("16688887777");
         Map<String, String> eduMap = new HashMap<String, String>();
-        eduMap.put("分水小学", "1999-2005");
-        eduMap.put("分水中学", "2005-2008");
-        eduMap.put("万州中学", "2008-2012");
-        eduMap.put("大连理工大学", "2012-2016");
+        eduMap.put("Water Primary School", "1999-2005");
+        eduMap.put("Water Middle School", "2005-2008");
+        eduMap.put("Water High School", "2008-2012");
+        eduMap.put("DUT", "2012-2016");
         userInfo.setEducation(new Education(eduMap));
         userInfo.setUserId("uid_1b9b96b2-e562-40ed-941b-ecb5a3e69638");
         List<String> friends = new ArrayList<String>();
